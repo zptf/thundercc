@@ -2,7 +2,7 @@
 repeat wait() until game:IsLoaded()
 local LoadingTime = tick();
 ------------------------------------ REPO ------------------------------------
-local repo = 'https://raw.githubusercontent.com/zaplec/thundercc/main/'
+local repo = 'https://raw.githubusercontent.com/zptf/thundercc/main/'
 ------------------------------------ LINKS ------------------------------------
 local Library = loadstring(game:HttpGet(repo .. 'Library.lua'))()
 local ThemeManager = loadstring(game:HttpGet(repo .. 'Linoria%20Themes.lua'))()
